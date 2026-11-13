@@ -1,0 +1,79 @@
+# Git Commands Used in the Assignment
+
+1. `git --version`
+   - Checks the installed Git version.
+
+2. `git init -b main`
+   - Initializes a new local Git repository with the main branch.
+
+3. `git status`
+   - Displays the current status of the working directory.
+
+4. `git add .`
+   - Stages all changes in the project for committing.
+
+5. `git add index.html`
+   - Stages the modified index.html file.
+
+6. `git commit -m "Initial project setup"`
+   - Creates the first commit containing the initial project files.
+
+7. `git commit -m "Updated homepage description"`
+   - Saves the changes made to the homepage.
+
+8. `git branch feature`
+   - Creates a new branch named feature.
+
+9. `git switch feature`
+   - Switches from the main branch to the feature branch.
+
+10. `git branch`
+    - Displays all available local branches.
+
+11. `git add about.html`
+    - Stages the modified about.html file.
+
+12. `git commit -m "Updated about page in feature branch"`
+    - Commits changes made in the feature branch.
+
+13. `git switch main`
+    - Switches back to the main branch.
+
+14. `git merge feature`
+    - Merges the feature branch into the main branch.
+
+15. `git log --oneline --graph --all`
+    - Displays the commit history with branch and merge information.
+
+16. `git check-ignore application.log temp/sample.txt`
+    - Checks whether the specified files are ignored by Git.
+
+17. `git add .gitignore`
+    - Stages the .gitignore configuration file.
+
+18. `git commit -m "Added gitignore configuration"`
+    - Saves the .gitignore configuration in Git history.
+
+19. `git add notes.txt`
+    - Stages notes.txt for committing.
+
+20. `git commit -m "Added notes for undo demonstration"`
+    - Creates an additional commit for demonstrating the undo operation.
+
+21. `git revert --no-edit HEAD`
+    - Reverses the latest commit by creating a new revert commit.
+
+22. `git remote add origin <GitHub-Repository-URL>`
+    - Connects the local repository to the remote GitHub repository.
+
+23. `git remote -v`
+    - Displays the configured remote repository URLs.
+
+24. `git push -u origin main`
+    - Pushes the main branch to GitHub and sets its upstream tracking branch.
+
+25. `git push -u origin feature`
+    - Pushes the feature branch to GitHub.
+
+26. `git push`
+    - Pushes subsequent local commits to the configured upstream branch.
